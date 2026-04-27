@@ -18,7 +18,7 @@ class Swm < Formula
   on_linux do
     on_intel do
       url "https://github.com/swm-gpu/swm/releases/download/v#{version}/swm-#{version}-linux-amd64"
-      sha256 "9b46d7b5c74e12f4fa55c72afb6acff0e8ef90430c45e20053fbf1a3ae2e5189"
+      sha256 "0529d661eb1c581d9d03aba078679ea417a92064e0231b23368c60b76f8748ce"
     end
   end
 
