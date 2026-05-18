@@ -1,24 +1,24 @@
 class Swm < Formula
   desc "One CLI to search, provision, and manage cloud GPUs across 10 providers"
   homepage "https://github.com/swm-gpu/swm"
-  version "0.1.10"
+  version "0.1.11"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/swm-gpu/swm/releases/download/v#{version}/swm-#{version}-darwin-arm64"
-      sha256 "a735b019e26fa0efe0144dc7cdc0a084b5f4fa6aa1e5a3b7a0cce15016f1f6ca"
+      sha256 "b23d2c43dd8e343a8a15fd09ce3ac3e73ff10cc32529b0fce768b42ae75804e4"
     end
     on_intel do
       url "https://github.com/swm-gpu/swm/releases/download/v#{version}/swm-#{version}-darwin-amd64"
-      sha256 "ac76dab882fa46bcff7157113f9f1cccd718d4062de452ecc98561d9d6cc9bc6"
+      sha256 "879c8e9f8eeb17fd85aee79fec85eb03f91a000f1467dace2eee4db3197b40e9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/swm-gpu/swm/releases/download/v#{version}/swm-#{version}-linux-amd64"
-      sha256 "7da01dfaa5c14154676c793dda7daec42a4a66578695ebc772ff980bf38d5d9c"
+      sha256 "bfb5fc8f13c38280889d1787c2d0cfb37c6b9dedb5aafd280b0f7f7fc0a46791"
     end
   end
 
